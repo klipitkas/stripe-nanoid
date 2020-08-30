@@ -7,7 +7,7 @@ A tiny, secure, unique ID generator for IDs that look similar to Stripe's.
 To install the package:
 
 ```bash
-npm install --save @klipitkas/stripe-nanoid
+npm install --save stripe-nanoid
 ```
 
 ### USAGE
@@ -15,7 +15,7 @@ npm install --save @klipitkas/stripe-nanoid
 A usage example is below:
 
 ```js
-const stripenanoid = require("@klipitkas/stripe-nanoid");
+const stripenanoid = require("stripe-nanoid");
 ```
 
 ```js

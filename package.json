@@ -1,6 +1,6 @@
 {
   "name": "stripe-nanoid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate random unique ids using nanoid and a prefix just like Stripe does.",
   "main": "index.js",
   "scripts": {
