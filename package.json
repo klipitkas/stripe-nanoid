@@ -1,0 +1,31 @@
+{
+  "name": "stripe-nanoid",
+  "version": "0.1.0",
+  "description": "Generate random unique ids using nanoid and a prefix just like Stripe does.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "klipitkas",
+  "license": "Unlicense",
+  "dependencies": {
+    "nanoid": "^3.1.12"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/klipitkas/stripe-nanoid.git"
+  },
+  "keywords": [
+    "stripe",
+    "nanoid",
+    "stripe",
+    "id",
+    "uid",
+    "id"
+  ],
+  "bugs": {
+    "url": "https://github.com/klipitkas/stripe-nanoid/issues"
+  },
+  "homepage": "https://github.com/klipitkas/stripe-nanoid#readme"
+}
