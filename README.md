@@ -7,7 +7,13 @@ A tiny, secure, unique ID generator for IDs that look similar to Stripe's.
 To install the package:
 
 ```bash
-npm install --save stripe-nanoid
+$ npm install --save stripe-nanoid
+```
+
+### RUN TESTS
+
+```bash
+$ npm run test
 ```
 
 ### USAGE
@@ -15,11 +21,11 @@ npm install --save stripe-nanoid
 A usage example is below:
 
 ```js
-const stripenanoid = require("stripe-nanoid");
+const stripenanoid = require('stripe-nanoid');
 ```
 
 ```js
-stripenanoid("cus"); //=> "cus_rPaZmctZlfLGHdZHiljZY"
+stripenanoid('cus'); //=> "cus_rPaZmctZlfLGHdZHiljZY"
 ```
 
 ### OPTIONS
@@ -28,7 +34,7 @@ A usage example with options is below:
 
 ```js
 const options = {
-  alphabet: "abcDEF",
+  alphabet: 'abcDEF',
   size: 4,
 };
 ```
@@ -36,5 +42,5 @@ const options = {
 Then you can use them:
 
 ```js
-stripenanoid("cus", options)); //=> "cus_cFEa"
+stripenanoid('cus', options)); //=> "cus_cFEa"
 ```
