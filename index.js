@@ -9,6 +9,9 @@ const defaultOptions = {
 // The function that generates the ID.
 let stripenanoid = (prefix, options = defaultOptions) => {
   const nanoid = customAlphabet(options.alphabet, options.size);
+  if (!prefix) {
+    return nanoid();
+  }
   return `${prefix}_${nanoid()}`;
 };
 
