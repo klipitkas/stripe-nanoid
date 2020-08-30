@@ -1,14 +1,17 @@
-const { customAlphabet } = require("nanoid");
+const { customAlphabet } = require('nanoid');
 
 // Set sane defaults.
 const defaultOptions = {
-  alphabet: "ABCDEFGHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstwxyz",
+  alphabet: 'ABCDEFGHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstwxyz',
   size: 21,
 };
 
 // The function that generates the ID.
 let stripenanoid = (prefix, options = defaultOptions) => {
-  const nanoid = customAlphabet(options.alphabet, options.size);
+  const nanoid = customAlphabet(
+    options.alphabet || defaultOptions.alphabet,
+    options.size || defaultOptions.size
+  );
   if (!prefix) {
     return nanoid();
   }
